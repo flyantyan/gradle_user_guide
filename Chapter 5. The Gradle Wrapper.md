@@ -2,3 +2,6 @@
   Gradle Wrapper(以后简称"Wrapper")可以解决上述的这些问题，而且是Gradle构建工具的首选方式。
 ##5.1 采用 Wrapper 执行构建任务
 
+    * ./gradlew <task>(类Unix)
+    * gradlew <task>(Windows 批处理文件)
+  每一个Wrapper与一个指定版本的Gradle相关联，所以当你首次执行指定版本Gradle的命令，它会想在相应的Gradle发行版，然后使用其执行构建命令。
