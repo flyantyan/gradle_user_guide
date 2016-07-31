@@ -34,7 +34,12 @@ Example 5.1 运行Wrapper任务
 >Total time: 1 secs
 
 
-
+  Wrapper也可以通过配置`Wrapper`任务来自定义
+  
+  `task wrapper(type: Wrapper){
+      gradleVersion = '2.0'
+  }
+  `
 
 
 
