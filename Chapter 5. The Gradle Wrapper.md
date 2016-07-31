@@ -63,14 +63,7 @@ Example 5.1 运行Wrapper任务
 如果你是用`gradlew`来运行Gradle，那么Wrapper将会首先检测Gradle发行版是否已经存在。如果本地有，那么它会检测gradle命令。如果不存在，它将会首先下载。你可以通过配置来指定你所想要的Gradle版本。`gradlew`命令将会从服务器下载合适的发行版。除此之外，你也可以指定发行版下载的路径，`gradlew`将会使用你所指定的url来下载。如果你两者都没有指定，那么**gradlew**将会下载生成这些wrapper文件相应的Gradle的版本。可以通过[Gradle Wrapper API](https://docs.gradle.org/current/dsl/org.gradle.api.tasks.wrapper.Wrapper.htmlI)来获得更多的配置信息。
 如果你使用***gradlew*不想下载，可以添加Gradle发行版的zip压缩包到你本地的版本控制，然后通过本地路径来配置wrapper。这是支持相对路径的，你可以通过相对于gradle-wrapper.properties文件的位置来指定。如果你通过Wrapper来构建，任何已经安装的Gradle都会被忽略。
 
-
-
-
-
-
-
-
-
+##5.4 Gradle发行版的校验
 
 
 
