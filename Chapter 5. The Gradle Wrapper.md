@@ -36,10 +36,20 @@ Example 5.1 运行Wrapper任务
 
   Wrapper也可以通过配置`Wrapper`任务来自定义
   
+  Example 5.2 Wrapper task
+  build.gradle
   `task wrapper(type: Wrapper){
       gradleVersion = '2.0'
   }
-  `
+  
+  上述操作之后，你就可以在目录下找到新的或者更新的文件：
+  
+  >simple/
+  >gradlew
+  >gradlew.bat
+  >gradle/wrapper/
+  > gradle-wrapper.jar
+  >  gradle-wrapper.properties
 
 
 
