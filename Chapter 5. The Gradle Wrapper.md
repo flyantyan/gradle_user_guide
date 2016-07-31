@@ -77,3 +77,5 @@ Example 5.5 配置SHA-256校验
 ```
 distributionSha256Sum=371cb9fbebbe9880d147f59bab36d61eee122854ef8c9ee1ecf12b82368bcf10
 ```
+
+##5.5 Unix文件权限
