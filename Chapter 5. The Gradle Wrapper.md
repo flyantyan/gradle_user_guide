@@ -14,3 +14,5 @@
   * gradle/wrapper/gradle-wrapper.properties(Wrapper配置文件)
 
 如果你想知道下载后Gradle发行版存储在哪里，可以在`$USER_HOME/.gradle/wrapper/dists`目录下找到。
+
+##5.2 添加Wrapper
