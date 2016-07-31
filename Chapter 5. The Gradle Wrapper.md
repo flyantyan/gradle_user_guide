@@ -64,7 +64,11 @@ Example 5.1 运行Wrapper任务
 如果你使用***gradlew*不想下载，可以添加Gradle发行版的zip压缩包到你本地的版本控制，然后通过本地路径来配置wrapper。这是支持相对路径的，你可以通过相对于gradle-wrapper.properties文件的位置来指定。如果你通过Wrapper来构建，任何已经安装的Gradle都会被忽略。
 
 ##5.4 Gradle发行版的校验
+Gradle Wrapper允许通过SHA-256哈希码来校验下载的Gradle发行版。提高了安全线，避免中间攻击者攻击。 首先需要计算Gradle发行版的SHA-256哈希值。
 
-
-
+Example 5.4 生成SHA-256 哈希值
+```
+> shasum -a 256 gradle-2.4-all.zip
+371cb9fbebbe9880d147f59bab36d61eee122854ef8c9ee1ecf12b82368bcf10  gradle-2.4-all.zip
+```
 
