@@ -25,14 +25,14 @@ Wrapper是应该纳入版本控制的。通过将Wrapper纳入项目，项目中
 
 Example 5.1 运行Wrapper任务
 
-`` 
+
 >gradle wrapper --gradle-version 2.0
 >:wrapper
 
 >BUILD SUCCESSFUL
 
 >Total time: 1 secs
-``
+
 
 
 
