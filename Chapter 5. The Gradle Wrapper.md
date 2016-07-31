@@ -22,3 +22,34 @@ Wrapper是应该纳入版本控制的。通过将Wrapper纳入项目，项目中
   * `--gradle-distribution-url`指定gradle的下载路径
 
 如果没有指定版本和下载的url，Wrapper将按照运行`wrapper`任务的gradle的版本来配置。所以你用Gradle 2.4来运行`wrapper`任务，那么Wrapper将会配置成默认的2.4。
+
+Example 5.1 运行Wrapper任务
+
+``>gradle wrapper --gradle-version 2.0
+:wrapper
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs
+``
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
