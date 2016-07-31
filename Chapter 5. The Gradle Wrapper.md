@@ -27,11 +27,11 @@ Example 5.1 运行Wrapper任务
 
 `` 
 >gradle wrapper --gradle-version 2.0
-:wrapper
+>:wrapper
 
-BUILD SUCCESSFUL
+>BUILD SUCCESSFUL
 
-Total time: 1 secs
+>Total time: 1 secs
 ``
 
 
