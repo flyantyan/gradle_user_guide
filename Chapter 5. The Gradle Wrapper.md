@@ -79,3 +79,4 @@ distributionSha256Sum=371cb9fbebbe9880d147f59bab36d61eee122854ef8c9ee1ecf12b8236
 ```
 
 ##5.5 Unix文件权限
+需要添加合适的权限来执行gradlew *NIX命令。
