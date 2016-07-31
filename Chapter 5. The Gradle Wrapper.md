@@ -52,9 +52,9 @@ Example 5.1 运行Wrapper任务
   >
   >gradle/wrapper/
   >
-        > gradle-wrapper.jar
+  >         gradle-wrapper.jar
   > 
-        >  gradle-wrapper.properties
+  >         gradle-wrapper.properties
 
 
 
