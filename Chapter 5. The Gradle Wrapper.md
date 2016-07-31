@@ -45,11 +45,16 @@ Example 5.1 运行Wrapper任务
   上述操作之后，你就可以在目录下找到新的或者更新的文件：
   
   >simple/
+  >
   >gradlew
+  >
   >gradlew.bat
+  >
   >gradle/wrapper/
-  > gradle-wrapper.jar
-  >  gradle-wrapper.properties
+  >
+        > gradle-wrapper.jar
+  > 
+        >  gradle-wrapper.properties
 
 
 
