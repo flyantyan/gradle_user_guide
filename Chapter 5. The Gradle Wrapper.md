@@ -17,3 +17,8 @@
 
 ##5.2 添加 Wrapper
 Wrapper是应该纳入版本控制的。通过将Wrapper纳入项目，项目中的任何一个人都不需要安装Gradle。更好的是，构建项目的参与者保证使用同一个版本的Gradle，另外在持续集成服务器上也不需要任何的配置。
+你可以通过`wrapper`任务来将wrapper添加到你的项目中去（这个任务通常都是可调用的，即使你没有添加此任务）。
+  * `--gradle-version`指定所需要的gradle的版本
+  * `--gradle-distribution-url`指定gradle的下载路径
+
+如果没有指定版本和下载的url，Wrapper将按照运行`wrapper`任务的gradle的版本来配置。所以你用Gradle 2.4来运行`wrapper`任务，那么Wrapper将会配置成默认的2.4。
