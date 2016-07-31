@@ -6,3 +6,7 @@
     * gradlew <task>(Windows 批处理文件)
   每一个Wrapper与一个指定版本的Gradle相关联，所以当你首次执行指定版本Gradle的命令，它会想在相应的Gradle发行版，然后使用其执行构建命令。
   这不仅意味着你不必手动安装Gradle，而且你也可以确保使用的是正确版本的gradle。保证你的构建可靠。仅仅只需要使用前文描述的合适的语法`gradle...`
+  为了确保你不删除重要的文件，一下是Gradle项目工程中与Wrapper相关的文件：
+  
+  ** gradlew (Unix Shell)
+  
