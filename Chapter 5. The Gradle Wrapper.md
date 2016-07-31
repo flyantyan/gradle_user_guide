@@ -58,6 +58,8 @@ Example 5.1 运行Wrapper任务
 
 
   这些文件也应该被提交到版本控制系统中，当然这些操作只需要操作一次。这些文件添加到项目中之后，就可以用`gradlew`命令来替换`gradle`了。如果你想要切换到新版本的Gradle，你不需要重新执行`wrapper`任务，只需要修改`gradle-wrapper.properties`，但是你如果想过使用Gradle Wrapper的新特点，那么你需要重新执行wrapper任务来生成wrapper文件。
+  
+  ##5.3 配置
 
 
 
