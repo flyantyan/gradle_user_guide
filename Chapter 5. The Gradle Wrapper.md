@@ -15,4 +15,5 @@
 
 如果你想知道下载后Gradle发行版存储在哪里，可以在`$USER_HOME/.gradle/wrapper/dists`目录下找到。
 
-##5.2 添加Wrapper
+##5.2 添加 Wrapper
+Wrapper是应该纳入版本控制的。通过将Wrapper纳入项目，项目中的任何一个人都不需要安装Gradle。更好的是，构建项目的参与者保证使用同一个版本的Gradle，当然在持续集成服务器上也不需要任何的配置
