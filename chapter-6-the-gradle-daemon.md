@@ -12,6 +12,7 @@ Gradle守护进程默认是不使用的，但是我们强烈建议开发者的�
 
 ```
 org.gradle.daemon=true
+
 ```
 
 
