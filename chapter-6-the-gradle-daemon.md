@@ -36,4 +36,5 @@ org.gradle.daemon=true
 ## 6.3 FAQ
 ### 6.3.1 可以启动Gradle Daemon 的其他方式
 
+有两个建议使用的环境变量的方式来激活Gradle 守护进程
 
