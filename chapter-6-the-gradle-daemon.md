@@ -31,5 +31,5 @@ org.gradle.daemon=true
 
 ** Note：只能关闭当前Gradle创建的守护进程，并不能关闭其他Gradle命令创建的守护进程 **
 
-它将会终止我们所使用Gradle创建的所有的守护进程，如果你安装了JDK，你可以通过 \*\*jps\*\*命令查看Daemon的状态。Gradle守护进程的名字为\*\*GradleDaemon\*\*
+它将会终止我们所使用Gradle创建的所有的守护进程，如果你安装了JDK，你可以通过 \*\*jps\*\*命令查看Daemon的状态。Gradle守护进程的名字为\*\*GradleDaemon\*\*。
 
