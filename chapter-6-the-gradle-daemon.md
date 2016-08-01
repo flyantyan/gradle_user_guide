@@ -34,5 +34,6 @@ org.gradle.daemon=true
 它将会终止我们所使用Gradle创建的所有的守护进程，如果你安装了JDK，你可以通过 **jps**命令查看Daemon的状态。Gradle守护进程的名字为**GradleDaemon**。
 
 ## 6.3 FAQ
+### 6.3.1 可以启动Gradle Daemon 的其他方式
 
 
