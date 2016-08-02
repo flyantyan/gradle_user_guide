@@ -35,6 +35,9 @@ dependencies{
 }
 ```
 
+上面构建脚本表达什么？构建脚本描述了项目的一些信息。首先，陈述了编译时需要Hibernate core 3.6.7.Final依赖库，其中Hibernate所依赖的也会包含进来。其次说明课编译测试需要 jnuit&gt;=4.0的库。最后告诉Gradle在Maven 中心仓库找寻这些依赖信息，接下来会详细论述。
+
+
 
 
 
