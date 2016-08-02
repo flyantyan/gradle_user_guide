@@ -95,7 +95,8 @@ dependencies {
 
 ##7.5 仓库
 
-##7.6 发布文件
+##7.6 发布文件(Publishing artifacts)
+
 
 
 
