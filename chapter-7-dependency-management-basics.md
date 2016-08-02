@@ -69,5 +69,19 @@ Java 插件定义了一些标准的配置项，这些配置项代表Java插件�
 
 ## 7.4 额外依赖
 
+你也可以自定义额外的依赖关系，叫做额外依赖\(External Dependency\)。
+
+
+
+Example 7.2 定义额外依赖
+
+build.gradle
+
+```
+dependencies {
+     compile group: 'org.hibernate', name: 'hibernate-core', version: '3.6.7.Final'
+}
+```
+
 
 
