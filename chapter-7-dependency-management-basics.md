@@ -85,6 +85,13 @@ dependencies {
 
 额外的依赖使用`group`,`name`,`version`三个属性信息标识，你所使用的仓库种类不同，goup和version可能不同。以上的也可以简写为"group:name:version";
 
+Example 7.3. Shortcut definition of an external dependency
+build.gradle
+```
+dependencies {
+     compile 'org.hibernate:hibernate-core:3.6.7.Final'
+}
+```
 
 
 
