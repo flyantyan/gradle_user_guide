@@ -95,7 +95,7 @@ dependencies {
 
 ##7.5 仓库
 
-Example 7.4. Usage of Maven central repository
+Example 7.4. Maven仓库
 build.gradle
 ```
 repositories {
