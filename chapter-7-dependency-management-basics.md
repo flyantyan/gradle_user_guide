@@ -37,9 +37,11 @@ dependencies{
 
 上面构建脚本表达什么？构建脚本描述了项目的一些信息。首先，陈述了编译时需要Hibernate core 3.6.7.Final依赖库，其中Hibernate所依赖的也会包含进来。其次说明课编译测试需要 jnuit&gt;=4.0的库。最后告诉Gradle在Maven 中心仓库找寻这些依赖信息，接下来会详细论述。
 
-
-
 ## 7.3 依赖配置
 
+Gradle的依赖也是通过配置项来组织的，一个配置项就是依赖的名称。我们把这个称作依赖配置『Dependcency Configurations』。你可以使用其来定义项目中额外的依赖关系，之后也会看到，也可以用来定义项目的发布内容。
 
+Java 插件定义了一些标准的配置项，这些配置项代表Java插件所使用的类路径。下面列举一些，详细的内容可以在『Chapter 45,5 Java plugin-dependency configurations』。
+
+\*\*\*\*
 
