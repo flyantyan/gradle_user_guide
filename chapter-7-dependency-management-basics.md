@@ -112,7 +112,7 @@ repositories {
 }
 Or a remote Ivy repository:
 
-Example 7.7. Usage of a remote Ivy directory
+Example 7.7. Ivy仓库
 build.gradle
 ```
 repositories {
