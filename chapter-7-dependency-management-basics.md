@@ -110,7 +110,7 @@ repositories {
 }
 Or a any other remote Maven repository:
 
-Example 7.6. Usage of a remote Maven repository
+Example 7.6. 指定特定的远程maven苍老
 build.gradle
 repositories {
  maven {
