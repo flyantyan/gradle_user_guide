@@ -97,6 +97,8 @@ dependencies {
 
 ##7.6 发布文件(Publishing artifacts)
 
+依赖配置也可以用于文件的发布，我们把这个叫做『publication artifacts』或者『artifacts』。
+这个插件可用来定义项目的产出『artifacts』，所以你不必做任何特定的操作来告诉gradle需要发布什么。然而， 你需要告诉gradle把产出『artifacts』发布到哪里。
 
 
 
