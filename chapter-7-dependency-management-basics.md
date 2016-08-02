@@ -102,9 +102,8 @@ repositories {
  mavenCentral()
 }
 ```
-Or Bintray's JCenter:
 
-Example 7.5. Usage of JCenter repository
+Example 7.5. JCenter仓库
 build.gradle
 repositories {
  jcenter()
