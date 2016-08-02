@@ -116,7 +116,21 @@ uploadArchives {
 }
 ```
 当你运行`gradle uploadArchives`，Gradle将会构建、上传jar包，也会生成、上传ivy.xml。
+你也可以上传到maven仓库，不过语法有些不同。
 
+Example 7.10. Publishing to a Maven repository
+build.gradle
+```
+apply plugin: 'maven'
+
+uploadArchives {
+     repositories {
+         mavenDeployer {
+             repository(url: "file://localhost/tmp/myRepo/")
+             }
+      }
+}
+```
 
 
 
