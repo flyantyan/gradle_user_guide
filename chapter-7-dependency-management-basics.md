@@ -20,17 +20,32 @@ Gradle也会帮你处理项目的发布。你声明项目的发布信息，Gradl
 
 下面看一些基本的依赖声明。
 
-
-
 Example 7.1 声明依赖
 
 build.gradle
 
 ```
-    
-
-
+apply plugin:'java'
+repositories{
+    mavenCentarl()
+}
+dependencies{
+    compile group: 'org.hibernate', name:'hibernate-core',version:'3.6.7.Final'
+    testCompile group: 'junit' ,name:'junit' , version:'4.+'
+}
 ```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
