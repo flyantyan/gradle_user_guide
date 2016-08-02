@@ -117,7 +117,7 @@ repositories {
  url "http://repo.mycompany.com/maven2"
  }
 }
-Or a remote Ivy repository:
+
 
 Example 7.7. Ivy仓库
 build.gradle
