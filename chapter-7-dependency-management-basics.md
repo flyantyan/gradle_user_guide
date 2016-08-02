@@ -44,7 +44,6 @@ Gradle的依赖也是通过配置项来组织的，一个配置项就是依赖�
 Java 插件定义了一些标准的配置项，这些配置项代表Java插件所使用的类路径。下面列举一些，详细的内容可以在『Chapter 45,5 Java plugin-dependency configurations』。
 
 **compile**
-
     编译项目源码所需要的依赖关系
 **runtime**
     
