@@ -114,11 +114,13 @@ Or a remote Ivy repository:
 
 Example 7.7. Usage of a remote Ivy directory
 build.gradle
+```
 repositories {
  ivy {
  url "http://repo.mycompany.com/repo"
  }
 }
+```
 You can also have repositories on the local file system. This works for both Maven and Ivy repositories.
 
 Example 7.8. Usage of a local Ivy directory
