@@ -123,7 +123,7 @@ repositories {
 ```
 You can also have repositories on the local file system. This works for both Maven and Ivy repositories.
 
-Example 7.8. Usage of a local Ivy directory
+Example 7.8. 本地Ivy目录
 build.gradle
 ```
 repositories {
