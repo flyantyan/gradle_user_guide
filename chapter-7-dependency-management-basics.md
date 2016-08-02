@@ -94,6 +94,14 @@ dependencies {
 ```
 
 ##7.5 仓库
+
+Example 7.4. Usage of Maven central repository
+build.gradle
+```
+repositories {
+ mavenCentral()
+}
+```
 Or Bintray's JCenter:
 
 Example 7.5. Usage of JCenter repository
