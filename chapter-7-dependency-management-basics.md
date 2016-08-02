@@ -115,7 +115,7 @@ uploadArchives {
     }
 }
 ```
-
+当你运行`gradle uploadArchives`，Gradle将会构建、上传jar包，也会生成、上传ivy.xml。
 
 
 
