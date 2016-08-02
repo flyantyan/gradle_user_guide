@@ -94,7 +94,44 @@ dependencies {
 ```
 
 ##7.5 仓库
+Or Bintray's JCenter:
 
+Example 7.5. Usage of JCenter repository
+build.gradle
+repositories {
+ jcenter()
+}
+Or a any other remote Maven repository:
+
+Example 7.6. Usage of a remote Maven repository
+build.gradle
+repositories {
+ maven {
+ url "http://repo.mycompany.com/maven2"
+ }
+}
+Or a remote Ivy repository:
+
+Example 7.7. Usage of a remote Ivy directory
+build.gradle
+repositories {
+ ivy {
+ url "http://repo.mycompany.com/repo"
+ }
+}
+You can also have repositories on the local file system. This works for both Maven and Ivy repositories.
+
+Example 7.8. Usage of a local Ivy directory
+build.gradle
+```
+repositories {
+ ivy {
+ // URL can refer to a local directory
+ url "../local-repo"
+ }
+}
+```
+A project can have multiple repositories. Gradle will look for a dependency in each repository in the order they are specified, stopping at the first repository that contains the requested module.
 ##7.6 发布文件(Publishing artifacts)
 
 依赖配置也可以用于文件的发布，我们把这个叫做『publication artifacts』或者『artifacts』。
