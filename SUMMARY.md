@@ -6,4 +6,5 @@
 * [Chapter 5. The Gradle Wrapper](Chapter 5. The Gradle Wrapper.md)
 * [Chapter 6. The Gradle Daemon](chapter-6-the-gradle-daemon.md)
 * [Chapter 7. Dependency Management Basics](chapter-7-dependency-management-basics.md)
+* [Chapter 8. Introduction to multi-project builds](chapter-8-introduction-to-multi-project-builds.md)
 
