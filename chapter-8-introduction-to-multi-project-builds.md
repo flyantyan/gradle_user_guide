@@ -30,6 +30,9 @@ To see a list of the tasks of a project, run gradle <project-path>:tasks
 For example, try running gradle :api:tasks
 ```
 从中可以看出，这个项目包括三个直接子项目:api、services、shared。其中项目servies也包含自己的子项目shared、webservice。这个项目结构很清晰，通过阅读这个结构就可以很轻易的找到项目的实际位置。；例如，webservice位于`<root>/serives/webservices`。
+默认情况下Gradle使用有setting.gradle文件的目录作为根项目的名称。通常情况下不会有大问题，因为所有的开发者都是从相同的目录名称下检出代码。但是在持续集成服务器(Continuous Integration Servers,CI)，比如Jenkins，目录的名称可能是自动生成的，不与版本控制服务器上的名称相同。由于这个原因，建议每次都设置根目录的名称，即使在单一项目构建中。可以用`rootProject.name`来设置根项目名称。
+每一个项目通常都会有自己的`build.gradle`文件，但是也有例外。在上面的例子中，services项目仅仅是其他子项目的一个组合（容器），也就没有`build.gradle`文件，但是，多项目程序中在根目录下必须有一个`build.gradle`。
 
+根目录下的`build.gradle`通常做子项目的公用配置，例如使用相同的插件，依赖。
 
 
