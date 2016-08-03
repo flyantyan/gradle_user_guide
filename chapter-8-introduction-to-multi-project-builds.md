@@ -11,3 +11,5 @@ gradle可以通过『多模块构建』`multi-project build`来实现这个场�
 
 `setting.gradle`告诉Gradle项目与子项目之间的结构。幸运的是，你不必阅读这个文件，可以通过命令`gradle projects`就可以很方便的了解项目的架构，以下是在多项目程序中运行该命令的实例：
 
+
+
