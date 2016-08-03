@@ -3,3 +3,4 @@
 gradle可以通过『多模块构建』`multi-project build`来实现这个场景。
 
 
+##8.1 多项目构建的结构
