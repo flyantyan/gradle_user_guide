@@ -6,3 +6,21 @@ Gradle的世界中有两个基本的概念:项目和任务
 
 ##14.2 Hello World
 
+可以`gradle`命令执行构建。`gradle`命令查找`build.gradle`文件在当前目录下。把这个文件叫做构建脚本，严格上来说，应该叫做构建配置脚本。其中定义了项目和任务。
+
+Example 14.1 第一个构建脚本
+build.gradle
+```
+task hello{
+    doLast{
+        println 'hello world'    
+    }
+}
+```
+在命令行执行`gradle -q hello`
+Example 14.2. Execution of a build script
+Output of gradle -q hello
+```
+> gradle -q hello
+Hello world!
+```
