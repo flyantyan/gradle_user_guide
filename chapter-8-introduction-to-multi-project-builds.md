@@ -38,4 +38,5 @@ For example, try running gradle :api:tasks
 
 另一个需要记住的是，构建脚本可能不是叫做`build.gradle`，很多项目将会用子项目的名称命名，例如api.gradle,service.gradle。这对于IDE开发有很多帮助，因为很难从众多名字一样的`build.gradle`中找到你想要打开的一个。可以通过`setting.gradle`来实现这个操作，不过你不必知道实现细节，只需要在子项目的根目录下查找.gradle结尾的文件即可。
 
+##8.2 多项目构建
 
