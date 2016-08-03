@@ -29,6 +29,7 @@ Root project 'multiproject'
 To see a list of the tasks of a project, run gradle <project-path>:tasks
 For example, try running gradle :api:tasks
 ```
+从中可以看出，这个项目包括三个直接子项目:api、services、shared。其中项目servies也包含自己的子项目shared、webservice。这个项目结构很清晰，通过阅读这个结构就可以很轻易的找到项目的实际位置。；例如，webservice位于`<root>/serives/webservices`。
 
 
 
