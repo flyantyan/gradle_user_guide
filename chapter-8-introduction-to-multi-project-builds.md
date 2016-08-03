@@ -34,8 +34,6 @@ For example, try running gradle :api:tasks
 每一个项目通常都会有自己的`build.gradle`文件，但是也有例外。在上面的例子中，services项目仅仅是其他子项目的一个组合（容器），也就没有`build.gradle`文件，但是，多项目程序中在根目录下必须有一个`build.gradle`。
 
 根目录下的`build.gradle`通常做子项目的公用配置，例如使用相同的插件，依赖。当然也可以做个别子项目的配置，如果希望所有的配置都放在同一个地方。这也就意味着，如果你想了解一个子项目是如何配置的，不要忘了根目录的配置。
-
-
 另一个需要记住的是，构建脚本可能不是叫做`build.gradle`，很多项目将会用子项目的名称命名，例如api.gradle,service.gradle。这对于IDE开发有很多帮助，因为很难从众多名字一样的`build.gradle`中找到你想要打开的一个。可以通过`setting.gradle`来实现这个操作，不过你不必知道实现细节，只需要在子项目的根目录下查找.gradle结尾的文件即可。
 
 ##8.2 多项目构建
