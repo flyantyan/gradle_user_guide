@@ -41,5 +41,11 @@ For example, try running gradle :api:tasks
 * 直接到相应项目的根目录下执行`gradle <task>`
 * 可以在任意目录下执行任务构建，不过通常实在项目根目录下。例如`gradle :service:webservice:build`将会构建webservice子项目以及其依赖的项目。
 
+第一种方法与单项目构建类似，但是Gradle的工作有一些不同。命令`gradle test`将会执行全部子项目中的test任务。
+
+为了更方便的控制，使用任务的标识名。
+
+无论你是用哪种方法，Gradle将会构建其依赖的子项目，你不必担心其内部依赖项目。
+不过，如果你是用gradle wrapper有一些不同，第一个方法需要指定gradlew 的在项目的路径（相对或者绝对）
 
 
