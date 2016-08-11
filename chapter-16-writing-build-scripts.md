@@ -132,6 +132,7 @@ Output of gradle -q configure
 ```
 > gradle -q configure
 1
+5
 ```
 
 
