@@ -113,6 +113,9 @@ plugin
 本例中，ext代码块添加了两个额外的属性到project对象，另外，`purpose`属性被添加到每一个source set中，使用`ext.purpose to null`. 
 
 
+#16.5 配置任意的对象
+
+
 
 
 
