@@ -135,6 +135,9 @@ Output of gradle -q configure
 5
 ```
 
+##16.6 使用ext脚本配置任意对象
+
+
 
 
 
