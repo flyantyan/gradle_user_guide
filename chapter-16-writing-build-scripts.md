@@ -69,4 +69,42 @@ task copy(type:Copy){
 ```
 ##  16.4.2 额外变量
 
+Example 16.3 使用额外变量
+```
+apply plugin: "java"
+ext{
+    springVersion = "3.1.0.RELEASE"
+    emailNotification = "build@master.org"
+}
 
+
+sourceSets.all(ext.purpose=null)
+
+sourceSets{
+    main{
+        purpose = "production"
+    }
+    test{
+        purpose = "test"    
+    }
+    plugin{
+        purpose = "production"
+    }
+}
+
+task printProperties{
+    println springVersion
+    println emailNotification
+    sourceSets.matching{it.purpose = "production"}
+            .each{ringln it.name}
+}
+```
+
+`gradle -q` 输出结果：
+```
+> gradle -q printProperties
+3.1.0.RELEASE
+build@master.org
+main
+plugin
+```
