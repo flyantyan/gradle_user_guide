@@ -23,3 +23,13 @@ println project.name
 projectApi
 projectApi
 ```
+
+两个println声明打印出的是相同的属性，前者使用自动委托给Project对象，对于没有在构建脚本中定义的属性。后者使用在任意构建脚本中都可以访问的project属性，就会获得与之构建脚本相关联的Project对象。只有当你定义了与Project中相同的属性或方法，否则不建议使用project属性。
+
+
+
+
+
+
+
+
