@@ -8,4 +8,8 @@ Gradle使用领域特定语言\(DSL\)。构建语言是基于Groovy，在此基�
 * 构建脚本中使用构建脚本未定义的方法，都委托给`Project`对象。
 * 构建脚本中使用未定义的属性，也委托给`Project`对象。
 
+我们可以做些练习来访问Project对象的属性。
 
+Example 16.1 访问Project对象的属性
+
+**build.gradle**
