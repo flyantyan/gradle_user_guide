@@ -204,7 +204,13 @@ Map<String, String> map = [key1:'value1', key2: 'value2']
 apply plugin: 'java'
 ```
 ## 16.7.5 闭包作为最后一个参数
-
+```
+repositories {
+ println "in a closure"
+}
+repositories() { println "in a closure" }
+repositories({ println "in a closure" })
+```
 #16.8默认导的包
 为了方便使用，Gardle自动添加了一系列包声明。也就意味着可以任意使用这些对象。如下列举了一些比较关键的。
 
