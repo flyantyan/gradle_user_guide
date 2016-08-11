@@ -33,5 +33,13 @@ Project对象提供了许多可以在构建脚本中使用的属性，如下列�
 
 |名称|类型|默认值|
 |--|--|--|
-
+|project|Project|Project实例|
+|name|String|项目目录名|
+|path|String|项目的绝对路径|
+|description|String|项目的描述信息|
+|projectDir|File|包含构建脚本的目录|
+|buildDir|File|projectDir/build|
+|group|Object|unspecified|
+|version|Object|unspecified|
+ant|AntBuilder|AntBuilder实例|
 
