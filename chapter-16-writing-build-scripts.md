@@ -180,6 +180,13 @@ println getProject().getBuildDir()
 project.buildDir = 'target'
 getProject().setBuildDir('target')
 ```
+#16.7.3 可选的括号
+对于每一个方法调用来说，括号是可选的。
+```
+test.systemProperty 'some.prop', 'value'
+test.systemProperty ('some.prop' , 'value')
+```
+
 #16.8默认导的包
 为了方便使用，Gardle自动添加了一系列包声明。也就意味着可以任意使用这些对象。如下列举了一些比较关键的。
 
