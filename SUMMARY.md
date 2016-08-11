@@ -9,4 +9,5 @@
 * [Chapter 8. Introduction to multi-project builds](chapter-8-introduction-to-multi-project-builds.md)
 * [Chapter 14. Build Script Basics](chapter-14-build-script-basics.md)
 * [Chapter 15. Build Init Plugin](chapter-15-build-init-plugin.md)
+* [Chapter 16. Writing Build Scripts](chapter-16-writing-build-scripts.md)
 
