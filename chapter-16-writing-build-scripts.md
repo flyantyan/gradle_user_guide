@@ -4,5 +4,5 @@ Gradle使用领域特定语言\(DSL\)。构建语言是基于Groovy，在此基�
 
 # 16.2 The Project API
 
-
+在之前的介绍中，我们使用了\`apply\(\)\`
 
