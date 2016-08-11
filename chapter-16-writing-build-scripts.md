@@ -17,3 +17,9 @@ Example 16.1 访问Project对象的属性
 println name
 println project.name
 ```
+执行`gradle -q check`的输出结果
+```
+>gradle -q check
+projectApi
+projectApi
+```
