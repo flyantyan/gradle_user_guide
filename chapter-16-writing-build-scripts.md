@@ -115,7 +115,24 @@ plugin
 
 #16.5 配置任意的对象
 
+Example 16.4. Configuring arbitrary objects
+build.gradle
+```
+task configure << {
+ def pos = configure(new java.text.FieldPosition(10)) {
+ beginIndex = 1
+ endIndex = 5
+ }
+ println pos.beginIndex
+ println pos.endIndex
+}
+```
 
+Output of gradle -q configure
+```
+> gradle -q configure
+1
+```
 
 
 
