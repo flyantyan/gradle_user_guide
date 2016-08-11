@@ -137,7 +137,28 @@ Output of gradle -q configure
 
 ##16.6 使用ext脚本配置任意对象
 
-
+build.gradle
+```
+task configure << {
+ def pos = new java.text.FieldPosition(10)
+ // Apply the script
+ apply from: 'other.gradle', to: pos
+ println pos.beginIndex
+ println pos.endIndex
+}
+```
+other.gradle
+```
+// Set properties.
+beginIndex = 1
+endIndex = 5
+```
+Output of gradle -q configure
+```
+> gradle -q configure
+1
+5
+```
 
 
 
