@@ -69,6 +69,7 @@ task copy(type:Copy){
 ```
 ##  16.4.2 额外变量
 
+Gradle对象模型中可以使用用户额外定义的属性。包括，但不限制与projects，tasks,sourceSets。额外属性可以被添加，读取，设置通过所持有对象的`ext`属性，除此之外，一个`ext`代码块可以一次添加多个属性。
 Example 16.3 使用额外变量
 ```
 apply plugin: "java"
@@ -96,7 +97,7 @@ task printProperties{
     println springVersion
     println emailNotification
     sourceSets.matching{it.purpose = "production"}
-            .each{ringln it.name}
+            .each{pringln it.name}
 }
 ```
 
