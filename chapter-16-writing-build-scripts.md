@@ -41,5 +41,5 @@ Project对象提供了许多可以在构建脚本中使用的属性，如下列�
 |buildDir|File|projectDir/build|
 |group|Object|unspecified|
 |version|Object|unspecified|
-ant|AntBuilder|AntBuilder实例|
+|ant|AntBuilder|AntBuilder实例|
 
