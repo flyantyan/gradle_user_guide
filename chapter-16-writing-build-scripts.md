@@ -211,7 +211,7 @@ repositories {
 repositories() { println "in a closure" }
 repositories({ println "in a closure" })
 ```
-#@#16.7.6. Closure delegate
+##16.7.6. Closure delegate
 Each closure has a delegate object, which Groovy uses to look up variable and method references which are not local variables or parameters of the closure. Gradle uses this for configuration closures, where the delegate object is set to the object to be configured.
 
 Example 16.11. Closure delegates
