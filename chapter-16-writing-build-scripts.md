@@ -110,7 +110,7 @@ build@master.org
 main
 plugin
 ```
-本例中，ext代码块添加了两个额外的属性到project对象，另外，`purpose`属性被添加到每一个source set中，使用`ext.purpose = null` 
+本例中，ext代码块添加了两个额外的属性到project对象，另外，`purpose`属性被添加到每一个source set中，使用`ext.purpose to null`. 
 
 
 
