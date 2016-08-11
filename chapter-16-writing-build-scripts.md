@@ -187,7 +187,22 @@ test.systemProperty 'some.prop', 'value'
 test.systemProperty ('some.prop' , 'value')
 ```
 #16.7.4 List Map 迭代
+```
+// List literal
+test.includes = ['org/gradle/api/**', 'org/gradle/internal/**']
 
+List<String> list = new ArrayList<String>()
+list.add('org/gradle/api/**')
+list.add('org/gradle/internal/**')
+test.includes = list
+
+// Map literal.
+Map<String, String> map = [key1:'value1', key2: 'value2']
+
+// Groovy will coerce named arguments
+// into a single map argument
+apply plugin: 'java'
+```
 #16.8默认导的包
 为了方便使用，Gardle自动添加了一系列包声明。也就意味着可以任意使用这些对象。如下列举了一些比较关键的。
 
