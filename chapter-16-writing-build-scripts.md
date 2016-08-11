@@ -211,6 +211,16 @@ repositories {
 repositories() { println "in a closure" }
 repositories({ println "in a closure" })
 ```
+#16.7.6. Closure delegate
+Each closure has a delegate object, which Groovy uses to look up variable and method references which are not local variables or parameters of the closure. Gradle uses this for configuration closures, where the delegate object is set to the object to be configured.
+
+Example 16.11. Closure delegates
+build.gradle
+dependencies {
+ assert delegate == project.dependencies
+ testCompile('junit:junit:4.12')
+ delegate.testCompile('junit:junit:4.12')
+}
 #16.8默认导的包
 为了方便使用，Gardle自动添加了一系列包声明。也就意味着可以任意使用这些对象。如下列举了一些比较关键的。
 
