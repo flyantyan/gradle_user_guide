@@ -13,3 +13,7 @@ Gradle使用领域特定语言\(DSL\)。构建语言是基于Groovy，在此基�
 Example 16.1 访问Project对象的属性
 
 **build.gradle**
+```
+println name
+println project.name
+```
